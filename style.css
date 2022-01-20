@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Righteous&family=Sarala&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #170c26 16.62%, #130a27 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Creepster', cursive;
+  font-weight: 400;
+  font-size: 18px;
+  color: #e9e7ff;
+  font-size: 52px;
+  text-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.2px solid #312f47;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #f2b077;
+  text-shadow: rgba(0, 0, 0, 0.25);
+  margin-left: 64px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #f0e4da;
+  margin-left: 32px;
+}
+
+.conteudo-principal-imagem {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 64px;
+}
+
+.conteudo-principal-audio {
+  display: flex;
+  margin-left: 64px;
+  line-height: 1200px;
+}
+
+.conteudo-principal-escrito-2 {
+  margin-top: 24px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #f0e4da;
+  margin-left: 32px;
+}
+
+.conteudo-principal-audio-2 {
+  display: flex;
+  margin-left: 64px;
+  line-height: 1200px;
+}
